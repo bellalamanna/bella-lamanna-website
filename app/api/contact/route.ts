@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const TO_EMAIL = "Bella.lamannaa@gmail.com";
-const FROM_DISPLAY = "Isabella Lamanna Website <onboarding@resend.dev>";
+const FROM_DISPLAY = "Isabella Lamanna Website <hello@bellalamanna.ca>";
 
 function escapeHtml(input: string): string {
   return input
