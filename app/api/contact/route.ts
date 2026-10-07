@@ -136,9 +136,11 @@ export async function POST(request: NextRequest) {
         throw new Error("Resend delivery failed");
       }
     } else {
-      // API key not yet configured — log only (safe for dev / pre-deploy)
-      console.warn(
-        "[Contact] RESEND_API_KEY not set — email logged to console only."
+      // No API key: fail loudly so visitors use email instead of losing the message
+      console.error("[Contact] RESEND_API_KEY not set. Message NOT delivered.");
+      return NextResponse.json(
+        { error: "Our form is temporarily unavailable. Please email Bella.lamannaa@gmail.com directly." },
+        { status: 503 }
       );
     }
 
