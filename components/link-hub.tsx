@@ -32,7 +32,7 @@ const mainLinks = [
   },
   {
     label: "Snapchat",
-    href: "https://snapchat.com/t/6lxGmgh7",
+    href: "https://snapchat.com/t/6JlcKA4a",
     icon: Ghost,
     external: true,
   },

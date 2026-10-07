@@ -4,7 +4,7 @@ export const CREATOR = {
   title: "Canadian Content Creator",
   tagline: "Lifestyle • Wellness • Student Life • Inclusivity",
   location: "Guelph, Ontario",
-  email: "teamsg@reignmakertalent.com",
+  email: "Bella.lamannaa@gmail.com",
   bio: "Canadian content creator passionate about lifestyle, wellness, student life, and inclusivity. Creating honest, feel-good content that inspires others to embrace who they are.",
   mission:
     "My mission is to create honest, feel-good content that inspires others to embrace who they are — showing up authentically and making space for everyone.",
@@ -25,13 +25,13 @@ export const CREATOR = {
   socials: [
     { label: "TikTok", href: "https://tiktok.com/@bella.lamanna", icon: "Music2" },
     { label: "Instagram", href: "https://instagram.com/Bella.lamannaa", icon: "Instagram" },
-    { label: "Snapchat", href: "https://snapchat.com/t/6lxGmgh7", icon: "Ghost" },
+    { label: "Snapchat", href: "https://snapchat.com/t/6JlcKA4a", icon: "Ghost" },
     {
       label: "Facebook",
       href: "https://www.facebook.com/share/16rVazadtQ/?mibextid=wwXIfr",
       icon: "Facebook",
     },
-    { label: "Email", href: "mailto:teamsg@reignmakertalent.com", icon: "Mail" },
+    { label: "Email", href: "mailto:Bella.lamannaa@gmail.com", icon: "Mail" },
     { label: "YouTube", href: "https://www.youtube.com/@IsabellaLamanna", icon: "YouTube" },
   ],
 
